@@ -15,3 +15,13 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
   <li><?= $row['name'] . ' is ruled by ' . $row['head_of_state']; ?></li>
 <?php endforeach; ?>
 </ul>
+<form method= "GET">
+  <input username ='lab5_user', password = 'password123' >
+   <input type= "submit" value= "Search">
+</form>
+
+<?php
+  echo "Ready" . htmlspecialchars($_GET ['lab5_user', 'password123']);
+  ?>
+
+  
