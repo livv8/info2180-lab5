@@ -1,4 +1,31 @@
 /* Add your own styles */
 body{
-    color: black;
+    background-color: rgb(241, 241, 241);
+}
+header{
+    background-color: rgb(235, 26, 131);
+    color: white; 
+    height: 100px;
+    padding-top: 50px;
+}
+
+h1{
+    text-align: center;
+}
+
+#lookup{
+    background-color: rgb(2, 151, 156);
+}
+
+#lookup2{
+    background-color: rgb(4, 107, 192);
+}
+
+main{
+    align-items: center;
+    padding-left: 33%;
+    padding-top: 25px;
+}
+button{
+    
 }
