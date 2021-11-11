@@ -19,9 +19,18 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
   <input username ='lab5_user', password = 'password123' >
    <input type= "submit" value= "Search">
 </form>
+<?php
+
+?>
+<?php
+mysqli_connect($host, $username, $password) or
+ die ("<p> Error connecting to database: "); //. mysqli_error() ."</p>");
+
+echo "<p> Connected to MySQL!</p>";
+?>
 
 <?php
-  echo "Ready" . htmlspecialchars($_GET ['lab5_user', 'password123']);
+  echo "Ready" ; //htmlspecialchars($_GET ['lab5_user', 'password123']);
   ?>
 
   
